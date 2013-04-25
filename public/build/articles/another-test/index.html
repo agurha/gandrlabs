@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Code and stuff! - The Wintersmith's blog
+    </title>
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="-32°C ain't no problems!">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fredericka+the+Great">
+    <link rel="stylesheet" href="/css/github.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="inner"><a href="/" class="back"><< back to index</a>
+        <h1>Code and stuff!</h1>
+        <p>written by:<span class="author">The Wintersmith</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <article class="post">
+        <section class="content"><p>Syntax highlighting with highlight.js</p>
+<h3>JavaScript</h3>
+<pre><code class="lang-javascript"><span class="function"><span class="keyword">function</span> <span class="title">factorial</span><span class="params">(n)</span> {</span>
+  <span class="keyword">if</span> (n === <span class="number">0</span>) {
+    <span class="keyword">return</span> <span class="number">1</span>;
+  }
+  <span class="keyword">return</span> n * factorial(n - <span class="number">1</span>);
+}</code></pre>
+<h2>More samples</h2>
+<p>Taken from <a href="https://en.wikipedia.org/wiki/Hello_world_program_examples">wikipedia</a>.</p>
+<h3>C</h3>
+<pre><code class="lang-c">#include &lt;stdio.h&gt;
+
+int main(void)
+{
+  printf(&quot;Hello world\n&quot;);
+  return 0;
+}</code></pre>
+<h3>C++</h3>
+<pre><code class="lang-cpp"><span class="preprocessor">#include &lt;iostream&gt;</span>
+
+<span class="keyword">int</span> main()
+{
+  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; <span class="built_in">std</span>::endl;
+  <span class="keyword">return</span> <span class="number">0</span>;
+}</code></pre>
+<h3>C-sharp</h3>
+<pre><code class="lang-csharp">class ExampleClass
+{
+    static void Main()
+    {
+        System.Console.WriteLine(&quot;Hello, world!&quot;);
+    }
+}</code></pre>
+<h3>COBOL</h3>
+<pre><code class="lang-cobol">       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO-WORLD.
+       PROCEDURE DIVISION.
+           DISPLAY &#39;Hello, world&#39;.
+           STOP RUN.</code></pre>
+<h3>Erlang</h3>
+<pre><code class="lang-erlang">io:format(<span class="string">"~s~n"</span>, [<span class="string">"hello, world"</span>])</code></pre>
+<h3>Go</h3>
+<pre><code class="lang-go"><span class="keyword">package</span> main
+
+<span class="keyword">import</span> <span class="string">"fmt"</span>
+
+<span class="keyword">func</span> main() {
+   fmt.Println(<span class="string">"Hello World!"</span>)
+}</code></pre>
+<h3>Java</h3>
+<pre><code class="lang-java"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> {</span>
+   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(String[] args) {
+       System.out.println(<span class="string">"Hello world!"</span>);
+   }
+}</code></pre>
+<h3>ObjectiveC</h3>
+<pre><code class="lang-objc">#import &lt;stdio.h&gt;
+
+int main(void)
+{
+    printf(&quot;Hello, World!\n&quot;);
+    return 0;
+}</code></pre>
+<h3>PHP</h3>
+<pre><code class="lang-php"><span class="preprocessor">&lt;?php</span> <span class="keyword">echo</span> <span class="string">'Hello, world'</span>; <span class="preprocessor">?&gt;</span></code></pre>
+<h3>Python</h3>
+<pre><code class="lang-python">print(<span class="string">"Hello World"</span>)</code></pre>
+<h3>Ruby</h3>
+<pre><code class="lang-ruby">puts <span class="string">"Hello world!"</span></code></pre>
+</section>
+      </article>
+    </div>
+    <footer>
+      <div class="inner">
+        <p>&copy; 2013 The Wintersmith</p>
+      </div>
+    </footer>
+  </body>
+</html>
